@@ -1,0 +1,46 @@
+body{
+    background-image: url(Assets/background.png);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+#wrapper{
+    width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.profilePic{
+    height: 400px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.bio{
+    
+}
+
+.favs{
+    clear: both;
+}
+
+a.fav{
+    font-size: 30px;
+    color: #E345c6;
+    text-decoration: none;
+    font-family: serif;
+}
+
+a.fav:hover{
+    color: red;
+}
+
+.section{
+    text-align: left;
+    margin: 10px 0;
+    border-top: 2px solid #eeeeee;
+    border-bottom: 2px solid #eeeeee;
+    padding: 20px;
+}
