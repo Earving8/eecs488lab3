@@ -15,6 +15,7 @@ input{
     margin: 10px auto;
     text-align: center;
     padding: 20px;
+    border-style: solid;
 }
 
 button{
