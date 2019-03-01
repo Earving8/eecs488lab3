@@ -9,7 +9,6 @@ body{
     margin: 20px auto;
     background-color: #ffffff;
     padding: 20px;
-    text-align: center;
     border-radius: 20px;
 }
 
@@ -17,9 +16,11 @@ body{
     height: 400px;
     float: left;
     margin: 0 20px 20px 0;
+    border-radius: 10px;
 }
 .bio{
-    
+    height: 400px;
+    padding: 50px 30px;
 }
 
 .favs{
@@ -38,9 +39,17 @@ a.fav:hover{
 }
 
 .section{
-    text-align: left;
     margin: 10px 0;
     border-top: 2px solid #eeeeee;
     border-bottom: 2px solid #eeeeee;
     padding: 20px;
+}
+
+.video{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.video p{
+    font-size: 20px;
 }
